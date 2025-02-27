@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+:root {
+    --bg-color: white;
+    --text-color: black;
+  }
+  
+  [data-theme="dark"] {
+    --bg-color: #121212;
+    --text-color: white;
+  }
+  
+  html {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: all 0.3s ease;
+  }
+  
